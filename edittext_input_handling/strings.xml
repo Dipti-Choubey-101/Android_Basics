@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="button_text">Show</string>
+    <string name="text_view_text">Hello Dipti!</string>
+    <string name="enter_name">Enter your name</string>
+</resources>
