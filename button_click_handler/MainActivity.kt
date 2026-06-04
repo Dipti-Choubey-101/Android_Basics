@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         
         myButton=findViewById(R.id.myButton)
         myTextView=findViewById(R.id.myTextView)
