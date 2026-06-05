@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
 
         radioGroup = findViewById(R.id.radioGroup)
 
-        // Clear any default selection (important fix)
         radioGroup.clearCheck()
 
         radioGroup.setOnCheckedChangeListener { _, checkedId ->
