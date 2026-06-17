@@ -21,9 +21,9 @@
 
     <Button
         android:id="@+id/button_go_to_act"
+        android:text="Go to"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_go_to_second_activity"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
