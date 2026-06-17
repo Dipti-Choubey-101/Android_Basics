@@ -1,6 +1,7 @@
 package com.example.navigationbetweenmultipleactivities
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -9,12 +10,20 @@ import androidx.core.view.WindowInsetsCompat
 
 class SecondActivity : AppCompatActivity() {
     private lateinit var textViewDataIntent: TextView
+    private lateinit var goBackButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_second)
         textViewDataIntent=findViewById(R.id.textViewData)
+        goBackButton=findViewById(R.id.buttonGoBack)
 
+        goBackButton.setOnClickListener {
+            val intent=intent
+            intent.putExtra(Constants.INTENT_MESSAGE2_KEY,"Hello from the second activity")
+            setResult(Constants.RESULT_CODE,intent)
+            finish()
+        }
         val data=intent.extras
 
         data?.let{
