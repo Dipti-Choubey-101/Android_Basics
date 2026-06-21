@@ -23,6 +23,7 @@ Whether you're a student, beginner, or aspiring Android developer, these example
 - SeekBar Widget
 - Toggle Button & Visibility
 - Navigation Between Multiple Activities
+- RecycleView
 - Customizing an app
 
 ---
@@ -34,6 +35,7 @@ Android_Basics
 │
 ├── Android-RadioButton-Demo
 ├── Navigation_between_Multiple_Activities
+├── RecycleView
 ├── Customizing an app
 ├── activity functions
 ├── button_click_handler
@@ -85,6 +87,7 @@ After exploring this repository, you will understand:
 - ToggleButton usage
 - Navigation between Activities using Intents
 - Customization of apps
+- RecycleView
 - Basic Android UI development principles
 
 ---
