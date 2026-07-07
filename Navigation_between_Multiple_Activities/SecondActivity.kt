@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+
 class SecondActivity : AppCompatActivity() {
     private lateinit var textViewDataIntent: TextView
     private lateinit var goBackButton: Button
